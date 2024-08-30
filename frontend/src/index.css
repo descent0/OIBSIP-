@@ -1,0 +1,72 @@
+body,
+html {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+.flex-container {
+  display: flex !important;
+}
+select {
+  box-shadow: none !important;
+  border-color: black !important;
+}
+.fa-trash-alt {
+  color: red;
+}
+.spinner input.form-control {
+  background: rgba(255, 0, 0, 0.103) !important;
+  white-space: nowrap !important;
+  width: 10% !important;
+  display: inline-block !important;
+}
+
+.bs {
+  box-shadow: rgba(31, 29, 29, 0.35) 0px 5px 15px;
+  margin-top: 2px !important;
+  border-radius: 5px !important;
+  padding: 2px !important;
+}
+
+input,
+select,
+.ant-picker {
+  box-shadow: none !important;
+  margin-top: 10px;
+  border: 50% black !important;
+  width: 100% !important;
+  border-radius: 3px !important;
+  margin: 5px !important;
+}
+.admin {
+  padding: 10px;
+  background-color: darkred;
+}
+
+.admin li {
+  list-style-type: none !important;
+  display: inline !important;
+}
+.admin li a {
+  color: wheat;
+  padding: 20px;
+}
+td,
+th,
+tr {
+  text-align: left;
+}
